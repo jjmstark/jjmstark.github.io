@@ -9,6 +9,12 @@
 {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
 {{- $paginator := .Paginate $pages }}
 
+<div class="homepage-logo">
+  <a href="{{ "" | absLangURL }}" title="{{ site.Title }}">
+    <img src="{{ "target.png" | absURL }}" alt="{{ site.Title }}" height="60">
+  </a>
+</div>
+
 {{- if and site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
 {{- partial "home_info.html" . }}
 {{- end }}

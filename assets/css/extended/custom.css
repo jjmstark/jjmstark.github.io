@@ -95,3 +95,13 @@ a:hover, a:focus {
         color: var(--secondary);
     }
 }
+
+/* Homepage logo styling */
+.homepage-logo {
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.homepage-logo img {
+    display: block;
+}
