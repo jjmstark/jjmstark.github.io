@@ -96,9 +96,19 @@ a:hover, a:focus {
     }
 }
 
-/* Homepage background color */
-.home body {
+/* Homepage background color - multiple selectors to ensure it works */
+body.list #main,
+.list body,
+body.list,
+.main {
     background-color: #ffffff !important;
+}
+
+/* Ensure main content area is also white */
+.main .post-content,
+.simple-post-list,
+.homepage-header {
+    background-color: transparent;
 }
 
 /* Homepage header container */
