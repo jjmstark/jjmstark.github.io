@@ -26,7 +26,7 @@ body, p, div, span {
 /* Light mode - ONLY actual link elements should be blue */
 a, a:visited {
     color: #0000EE !important;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:hover, a:focus {
@@ -37,7 +37,7 @@ a:hover, a:focus {
 [data-theme="dark"] a,
 [data-theme="dark"] a:visited {
     color: #ff8c00 !important;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 [data-theme="dark"] a:hover,
@@ -50,7 +50,7 @@ a:hover, a:focus {
     :root:not([data-theme="light"]) a,
     :root:not([data-theme="light"]) a:visited {
         color: #ff8c00 !important;
-        text-decoration: underline;
+        text-decoration: none;
     }
     
     :root:not([data-theme="light"]) a:hover,
