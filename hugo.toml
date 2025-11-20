@@ -24,15 +24,8 @@ theme = 'PaperMod'
   
   # Home page settings
   homeInfoParams.Title = "About"
-  homeInfoParams.Content = "I'm Josh Stark, and I work for [Ethereum](https://ethereum.org/) at the [Ethereum Foundation](https://ethereum.foundation/) where I serve on the management team. Previously I co-founded [ETHGlobal](https://ethglobal.com/) and [L4](https://x.com/L4ventures/status/1006543147290292224?s=20)"
+  homeInfoParams.Content = "I'm Josh Stark, and I work for [Ethereum](https://ethereum.org/) at the [Ethereum Foundation](https://ethereum.foundation/) where I serve on the management team. Previously I co-founded [ETHGlobal](https://ethglobal.com/) and [L4](https://x.com/L4ventures/status/1006543147290292224?s=20)\n\n [X](x.com0xstark) | [Farcaster](https://farcaster.xyz/0xstark.eth)"
 
-[[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/joshstark"
-
-[[params.socialIcons]]
-  name = "X"
-  url = "https://x.com/0xstark"
 
 [menu]
   [[menu.main]]
