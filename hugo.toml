@@ -30,6 +30,10 @@ theme = 'PaperMod'
   name = "github"
   url = "https://github.com/joshstark"
 
+[[params.socialIcons]]
+  name = "X"
+  url = "https://x.com/0xstark"
+
 [menu]
   [[menu.main]]
     identifier = "home"
