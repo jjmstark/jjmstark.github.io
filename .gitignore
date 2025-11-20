@@ -1,0 +1,20 @@
+# Hugo build outputs
+/public/
+/resources/
+/assets/jsconfig.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# Lock files
+*.lock
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
