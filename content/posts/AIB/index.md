@@ -126,7 +126,7 @@ Hardness is related to legitimacy, but they are distinct ideas. Legitimacy is ab
 
 Atoms, Institutions, and Blockchains are all different from each other. As a species we have been very opportunistic, and creative, in how to find or create hardness that enables human coordination. Over time, the balance between sources of hardness has shifted, often without our realizing this has happened. This has created structural weaknesses in the infrastructure of our civilization.
 
-## Atoms
+### Atoms
 
 “Atom” hardness refers to hardness that is sourced from the physical properties of our universe. This includes more than literal atoms (i.e. matter, physical stuff), but all other properties of nature like physical laws and constants. “Atom” is just a convenient shorthand.
 
@@ -162,7 +162,7 @@ But eventually, we had technology that undermined this hardness and broke the ca
 
 This has been a common pattern over time. As our control over nature increases, things we once believed were hard have crumbled away, and we have patched the holes using institution-hardness.
 
-## Institutions
+### Institutions
 
 Over time, humans developed a need for a different kind of hardness. Hardness that could be used for casts that were specific, complex, and conditional. To do this, we used institutions:  groups of human beings who together act in sufficiently predictable ways to be a source of hardness themselves.
 
@@ -206,7 +206,7 @@ The rapid development of internet and software technologies have increased our d
 
 The internet has let us build the early stages of a global, digital civilization. But today it is built on weak foundations. The internet we have reflects the shortcomings of institutional hardness. It is increasingly balkanized, carved up along nation-state boundaries. It is a fragile and unstable foundation, as the individual companies that control it rise and fall. And most of it is owned by a handful of companies, controlled by a small group of people, who live in one country.
 
-## Blockchains
+### Blockchains
 
 Satoshi’s invention was a new source of hardness. It was the first new source of hardness that humans have invented in thousands of years.
 
@@ -251,4 +251,4 @@ Blockchains will not replace institutions as our only source of hardness. But th
 
 What do we want our civilization to be made out of?
 
-(Thank you to Danny, Luke, Sina, Saffron, Trent, gubsheep, the Farcaster community, and many others who gave feedback on earlier drafts).
+*(Thank you to Danny, Luke, Sina, Saffron, Trent, gubsheep, the Farcaster community, and many others who gave feedback on earlier drafts)*.
