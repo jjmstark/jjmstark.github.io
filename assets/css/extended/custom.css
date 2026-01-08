@@ -104,6 +104,24 @@ body.list,
     background-color: #ffffff !important;
 }
 
+/* Dark mode background */
+[data-theme="dark"] body.list #main,
+[data-theme="dark"] .list body,
+[data-theme="dark"] body.list,
+[data-theme="dark"] .main {
+    background-color: #1a1a1a !important;
+}
+
+/* Auto mode for dark preference */
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) body.list #main,
+    :root:not([data-theme="light"]) .list body,
+    :root:not([data-theme="light"]) body.list,
+    :root:not([data-theme="light"]) .main {
+        background-color: #1a1a1a !important;
+    }
+}
+
 /* Ensure main content area is also white */
 .main .post-content,
 .simple-post-list,
