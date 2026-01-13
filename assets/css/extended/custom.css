@@ -249,3 +249,24 @@ body.list,
 .anchor {
     display: none !important;
 }
+
+/* Custom horizontal rule styling */
+.post-content hr {
+    width: 50% !important;
+    margin: 30px auto !important;
+    height: 1px !important;
+    background: #d0d0d0 !important;
+    border: 0 !important;
+}
+
+/* Dark mode horizontal rule */
+[data-theme="dark"] .post-content hr {
+    background: #404040 !important;
+}
+
+/* Auto mode horizontal rule */
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .post-content hr {
+        background: #404040 !important;
+    }
+}

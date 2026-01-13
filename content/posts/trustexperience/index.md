@@ -11,7 +11,7 @@ caption = "Old UX image of Norton Commander"
 
 The distinctive value of blockchains is that they can be reliable.
 
-Blockchains can be made consistently resistant to manipulation, censorship, or capture. Their design can make them reliably transparent and accessible. Blockchains do not merely have those properties temporarily - we value them because we have good reason to believe this characteristic hardness will persist.
+Blockchains can be made consistently resistant to manipulation, censorship, or capture. Their design can make them reliably transparent and accessible. Blockchains do not merely have those properties temporarily - we value them because we have good reason to believe this characteristic [hardness](/my-blog/posts/hardness/) will persist.
 
 This deceptively simple property has enabled higher-order features. By combining this reliability with a programmable computing environment, blockchains have enabled digital property (like cryptocurrencies, tokens, and NFTs), complex global financial systems, and other use-cases where we care about reliability, like identity systems and social networks.
 
@@ -19,7 +19,7 @@ When we claim that something is reliable, we are making a statement about the fu
 
 This fact can make blockchains hard to explain. Other technologies are much easier to demonstrate, because their distinctive qualities appear quickly. In 1992, to prove that email worked all you had to do was try it once. The proof that someone on the other side of the world received and then instantly responded to your message was right there in your inbox.
 
-But demonstrating the value of a blockchain is not so easy. At first, it might be hard to tell the difference between a blockchain application and a centralized one. But over time, they will diverge. A centralized payment processor might censor your transactions, a media network could deplatform you, and a social network could shut off API access or seize your username. A blockchain application, if designed properly, will not.
+But demonstrating the value of a blockchain is not so easy. At first, it might be hard to tell the difference between a blockchain application and a centralized one. But over time, they will diverge. A centralized payment processor might [censor your transactions](https://www.eff.org/deeplinks/2012/02/legal-censorship-paypal-makes-habit-deciding-what-users-can-read), a media network could [deplatform you](https://ew.com/music/dixie-chicks-blacklisted-ellen-degeneres/), and a social network could [shut off API access](https://www.engadget.com/twitter-shut-off-its-free-api-and-its-breaking-a-lot-of-apps-222011637.html?guccounter=1) or [seize your username](https://www.rollingstone.com/culture/culture-news/twitter-seizes-music-handle-1234801321/). A blockchain application, if designed properly, will not.
 
 This means that establishing the value of blockchains relies more on explanation than other technologies. If the value proposition is “developers can build on this API and it will never be turned off”, you can’t simply prove that value with a tech demo because it depends greatly on future outcomes. You must provide reasons, justifications for why such a claim should be trusted. You must argue for it.
 
@@ -47,25 +47,25 @@ If User Experience (UX) is about how a person interacts with and experiences a t
 
 The components that influence TX will vary greatly depending on the user and their needs. These inputs could be very diverse, including:
 
-Reading the code of a smart contract you are going to interact with
+* Reading the code of a smart contract you are going to interact with
 
-Seeing celebrities buy an NFT
+* Seeing celebrities buy an NFT
 
-Noticing an icon in your wallet that shows you’re using Ethereum
+* Noticing an icon in your wallet that shows you’re using Ethereum
 
-Learning about the security properties of different L2s on L2beat
+* Learning about the security properties of different L2s on [L2beat](https://l2beat.com/scaling/summary)
 
-Looking at a dashboard showing the concentration of Bitcoin mining
+* Looking at a dashboard showing the concentration of Bitcoin mining
 
-Verifying a protocol was audited, even if you don’t understand the report
+* [Verifying a protocol was audited](https://x.com/trailofbits/status/1752109824282910869?s=20), even if you don’t understand the report
 
-Thinking that Sam Bankman-Fried is a good kid with impressive credentials
+* Thinking that Sam Bankman-Fried is a good kid with impressive credentials
 
 Importantly, TX is not just a list of things we would prefer people use to make these judgements. TX is about what actually shapes trust, not what we wish shaped it.
 
 Everyone who interacts with a blockchain or blockchain application will have some kind of trust experience, though it will vary widely. A casual user might need only a social proof (“my friend Josh, who is a big nerd, uses Ethereum”), whereas a developer building an application will engage more deeply (“I’ve read the docs”) and rely on other social proofs (“An ex-Facebook executive is building on Bitcoin”). Large corporations, governments, and regulators might look to certain kinds of credentials or other social or market signals, relying on experts to validate technical information.
 
-TX is not unique to blockchains. There are many technologies and systems that we rely on in modern life where future performance is essential. Cloud services where we store our backups, protocols of various kinds, concrete structures we live inside, and legal contracts are all cases where a significant part of the value lies in what happens (or doesn't happen) in the future. We have built around each of these technologies the components of TX that allows people to gain enough confidence in them to use and rely on them.
+TX is not unique to blockchains. There are many technologies and systems that we rely on in modern life where future performance is essential. Cloud services where we store our backups, [protocols of various kinds](https://venkatesh-rao.gitbook.io/summer-of-protocols/), concrete structures we live inside, and legal contracts are all cases where a significant part of the value lies in what happens (or doesn't happen) in the future. We have built around each of these technologies the components of TX that allows people to gain enough confidence in them to use and rely on them.
 
 But it is still early days for blockchain TX. Today, our TX is a lot like early software UX.
 
@@ -94,11 +94,11 @@ But there are obvious limits to relying on our own understanding of a system to 
 ### 2. We rely on other people: friends, influencers, experts
 We often base our decisions to trust a system on the advice or recommendations of other people. Even when we are doing our own research, we are still relying on the people who created the educational resources we use to learn.
 
-Sometimes this might simply be people we know: our family, friends, or coworkers. We look to relative expertise in our social circle, linking into chains of trust (“my friend Josh, who is a big nerd, uses Ethereum. He learned about it from his friend Tim, who is an even bigger nerd, and spends a lot of time on ethresear.ch”).
+Sometimes this might simply be people we know: our family, friends, or coworkers. We look to relative expertise in our social circle, linking into chains of trust (“my friend Josh, who is a big nerd, uses Ethereum. He learned about it from his friend Tim, who is an even bigger nerd, and spends a lot of time on [ethresear.ch](http://ethresear.ch/)”).
 
 In other cases, we are looking to someone further away on the social graph but with deeper expertise. In crypto, this takes many forms: smart contract auditors, following researchers on twitter, listening to podcasts, trying to figure out who is credible.
 
-L2Beat is an example of a contributor to TX that uses experts (the L2Beat team members who inspect and evaluate the real properties of L2s) to inform and educate users about L2s at scale.
+[L2Beat](https://l2beat.com/) is an example of a contributor to TX that uses experts (the L2Beat team members who inspect and evaluate the real properties of L2s) to inform and educate users about L2s at scale.
 
 L2Beat has been a significant upgrade for Ethereum's TX
 L2Beat has been a significant upgrade for Ethereum's TX
@@ -109,11 +109,11 @@ This is one reason why intellectual honesty is such an important value for block
 Experts need to gain their expertise from somewhere. This underlines the importance of (1), because making it easy for anyone to do their own research might produce a larger number of credible experts who can contribute to the overall TX of a blockchain ecosystem.
 
 ### 3. Historical behaviour of a system
-We often look to the past to understand the future. This is captured by the “Lindy effect”, the idea that the future life expectancy of a technology is proportionate to its current age. It’s no surprise that in the crypto ecosystem, we often talk about things achieving “Lindy” status.
+We often look to the past to understand the future. This is captured by the “[Lindy effect](https://en.wikipedia.org/wiki/Lindy_effect)”, the idea that the future life expectancy of a technology is proportionate to its current age. It’s no surprise that in the crypto ecosystem, we often talk about things achieving “Lindy” status.
 
 When we don’t have precise historical analogs, we look to similar systems. Has this type of plane crashed before? Has any blockchain ever failed?
 
-This is a component where blockchain TX tends to be weak, given that blockchains are so new and still evolving relative to other sources of hardness.
+This is a component where blockchain TX tends to be weak, given that blockchains are so new and still evolving relative to other [sources of hardness](https://stark.mirror.xyz/n2UpRqwdf7yjuiPKVICPpGoUNeDhlWxGqjulrlpyYi0).
 
 ### 4. Mass social proofs like crowds & markets
 We are social animals, accustomed to using social cues and group behaviour to inform our own beliefs. What do my friends think? Does my tribe like this chain, or that one? What does the market say?
@@ -167,26 +167,26 @@ Modern UX relies on many conventions, symbols, or conceptual metaphors that were
 
 ### Stray observations, addendum, caveats:
 
-TX helps make sense of why the crypto community is dominated by debate and argument. We are all trying to reason about what will happen in the future, trying to answer questions that do not have empirical answers: Will Bitcoin’s 21 million supply cap hold? Will Ethereum’s PoS lead to censorship or concentration of power?
+* TX helps make sense of why the crypto community is dominated by debate and argument. We are all trying to reason about what will happen in the future, trying to answer questions that do not have empirical answers: Will Bitcoin’s 21 million supply cap hold? Will Ethereum’s PoS lead to censorship or concentration of power?
 
-TX helps clarify how and why we talk about “education” so much in crypto communities. We implicitly understand that “education” is about more than educating developers about how to build dapps. There is an implicit idea that everyone should be able to learn how and why Ethereum works, even if they are only a very casual user.
+* TX helps clarify how and why we talk about “education” so much in crypto communities. We implicitly understand that “education” is about more than educating developers about how to build dapps. There is an implicit idea that everyone should be able to learn how and why Ethereum works, even if they are only a very casual user.
 
-TX is of course not the only thing we should care about with blockchains. A blockchain with great TX, and which is very reliable, but which cannot scale to meet demand for blockspace will have limited impact on the world. A blockchain with a terrible developer experience & ecosystem will not attract useful applications.
+* TX is of course not the only thing we should care about with blockchains. A blockchain with great TX, and which is very reliable, but which cannot scale to meet demand for blockspace will have limited impact on the world. A blockchain with a terrible developer experience & ecosystem will not attract useful applications.
 
-The elephant in the room is that the “expectation” many blockchain users care about most is the price of some digital asset. There is a speculative mania around crypto, which will likely continue for some time, that can distract people from the underlying value of these platforms. But that underlying value really does exist, and it will still be there when the mania ends. TX is obviously not about future financial performance of some asset, but instead about these more fundamental properties.
+* The elephant in the room is that the “expectation” many blockchain users care about most is the price of some digital asset. There is a speculative mania around crypto, which will likely continue for some time, that can distract people from the underlying value of these platforms. But that underlying value really does exist, and it will still be there when the mania ends. TX is obviously not about future financial performance of some asset, but instead about these more fundamental properties.
 
-One barrier for blockchain TX is that people’s standards for software TX is very low. People have an expectation that software is ephemeral, that you can always hit “undo”, and that the companies that control that software will rise and fall over time. Most people don’t understand that the TX of the digital world can be a lot better, that software actually can have hardness, and so this is not yet a differentiating factor.
+* One barrier for blockchain TX is that people’s standards for software TX is very low. People have an expectation that software is ephemeral, that you can always hit “undo”, and that the companies that control that software will rise and fall over time. Most people don’t understand that the TX of the digital world can be a lot better, that software actually can have hardness, and so this is not yet a differentiating factor.
 
-Our relation to TX is probably modified or proportionate to our time preference. A blockchain that can meet expectations for 1 year before collapsing is an outright failure. But a blockchain that can meet expectations for 30 years is obviously valuable for many use-cases. Many people use “cheap but centralized” blockchains for the occasional transactions, but would never leave funds on them.
+* Our relation to TX is probably modified or proportionate to our time preference. A blockchain that can meet expectations for 1 year before collapsing is an outright failure. But a blockchain that can meet expectations for 30 years is obviously valuable for many use-cases. Many people use “cheap but centralized” blockchains for the occasional transactions, but would never leave funds on them.
 
-There is an obvious connection here to my article Atoms, Institutions, Blockchains which introduces the concept of “hardness” as the distinctive feature of blockchains which allows them to perform functions otherwise limited to institutions (like law, or money) or nature (like gold). You could think of TX as a framework for how people experience and reason about hardness once it exists. Although you don’t have to read or care about AIB to make use of this post.
+* There is an obvious connection here to my article [Atoms, Institutions, Blockchains](/my-blog/posts/AIB/) which introduces the concept of “hardness” as the distinctive feature of blockchains which allows them to perform functions otherwise limited to institutions (like law, or money) or nature (like gold). You could think of TX as a framework for how people experience and reason about hardness once it exists. Although you don’t have to read or care about AIB to make use of this post.
 
-There is a popular (though misguided) idea in crypto that the Right Way to gain blockchain mass adoption is to completely hide or abstract the “blockchain” from the user (let’s call it the “veil of abstraction” thesis). TX is intended as a rebuttal to this idea, and maybe a path forward. By framing TX as analogous and complementary to UX, maybe we can find more practical ways as an ecosystem to make crypto more approachable without hiding the essential distinctive properties that separates blockchains from other software, and helping users make informed choices. Good UX and good TX are not incompatible - this is just a design problem at an early stage of a new technology. All problems are soluble.
+* There is a popular (though misguided) idea in crypto that the Right Way to gain blockchain mass adoption is to completely hide or abstract the “blockchain” from the user (let’s call it the “[veil of abstraction” thesis](https://x.com/0xstark/status/1586051559666089984?s=20)). TX is intended as a rebuttal to this idea, and maybe a path forward. By framing TX as analogous and complementary to UX, maybe we can find more practical ways as an ecosystem to make crypto more approachable without hiding the essential distinctive properties that separates blockchains from other software, and helping users make informed choices. Good UX and good TX are not incompatible - this is just a design problem at an early stage of a new technology. All problems are soluble.
 
-Dan Finlay’s recent post The Protocol Seeking Protocol contains some complementary ideas, in particular relating to how people (and groups of people) discover and then learn to rely on new sources of hardness. I think this fits neatly into the “TX” framing and Dan’s ideas go deeper than this post on how we do this in practice.
+* Dan Finlay’s recent post The [Protocol Seeking Protocol](https://blog.danfinlay.com/protocol-seeking-protocol/) contains some complementary ideas, in particular relating to how people (and groups of people) discover and then learn to rely on new sources of hardness. I think this fits neatly into the “TX” framing and Dan’s ideas go deeper than this post on how we do this in practice.
 
-One of the most obvious holes in the blockchain ecosystem’s TX is the lack of any reliable and informed resource that analyzes, measures, and compares key security metrics of different L1 chains. How does the “economic security” of Ethereum compare to Bitcoin, or Tron, or Solana, or Cardano? How should we make those comparisons? What are the metrics we should look to? Who will build the “L2beat” for L1s?
+* One of the most obvious holes in the blockchain ecosystem’s TX is the lack of any reliable and informed resource that analyzes, measures, and compares key security metrics of different L1 chains. How does the “economic security” of Ethereum compare to Bitcoin, or Tron, or Solana, or Cardano? How should we make those comparisons? What are the metrics we should look to? Who will build the “L2beat” for L1s?
 
-Thanks to Rachel, Tim, Danny, Liam, Josh, Jesse, Dankrad, Justin, Trent, Jason, and ST for their comments on earlier drafts.
+*Thanks to Rachel, Tim, Danny, Liam, Josh, Jesse, Dankrad, Justin, Trent, Jason, and ST for their comments on earlier drafts.*
 
 Old UX image of Norton Commander from Yuri Samoilov
