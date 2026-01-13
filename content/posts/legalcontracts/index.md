@@ -10,7 +10,7 @@ caption = "Introduction to Smart (legal?) Contracts — Josh Stark"
 +++
 
 
-*👋 Note: Originally published in April 2016 on [Coindesk](https://www.coindesk.com/markets/2016/04/11/how-close-are-smart-contracts-to-impacting-real-world-law/) and [Medium](https://jjmstark.medium.com/introduction-to-smart-contracts-part-1-8f191a324d0a).*
+*Originally published in April 2016 on [Coindesk](https://www.coindesk.com/markets/2016/04/11/how-close-are-smart-contracts-to-impacting-real-world-law/) and [Medium](https://jjmstark.medium.com/introduction-to-smart-contracts-part-1-8f191a324d0a).*
 
 Over the last year, the concept of a “smart contract” has received renewed attention in both the technology industry and in legal and business circles. Recent advancements in a field known as “blockchain technology” have led some to believe that smart contracts could soon offer alternatives to traditional commercial and financial agreements, with dire results for the legal and financial sectors. While this enthusiasm may be premature, lawyers nonetheless remain mostly unaware of this important emerging technology and the long-term implications for their profession.
 
@@ -87,31 +87,3 @@ In our simple Smart Options example above, each of Alice and Bob could “dry ru
 Of course, smart contracts will never fully replace natural-language law. Many types of agreements can never be fully expressed in code or executed by a computer — for instance, those that involve human performance rather than just the exchange of dematerialized assets. Even fully self-executing contracts will ultimately need to make reference to legal terms and concepts that will define each party’s rights if their relationship leads to litigation. Rather, the emergence of smart contracts will lead to a re-evaluation of common practice, as lawyers and clients alike discover which types of agreements and terms are best suited to code, which should be left to natural language, and how to combine each to achieve the best of both worlds.
 
 For now, smart contracts are still speculative fiction. But for the first time we have a technology that could be used to bring them into commercial use. While that day may still be years away, law firms would be wise to consider how these innovations could impact their business. By the time smart contracts become viable, the legal industry should hope that they have lawyers to match.
-
-Subscribe to Josh Stark
-
-Receive the latest updates directly to your inbox.
-
-Verification
-
-This entry has been permanently stored onchain and signed by its creator.
-
-[Arweave Transaction
-
-RmugEXQaZqRVwGb…g8TEhAxrIZ2Nsx4](https://viewblock.io/arweave/tx/RmugEXQaZqRVwGbpX3zU_R9QBw96g8TEhAxrIZ2Nsx4)[Author Address
-
-0x4aa9C5546BE6848…30D25674a1A728e](https://etherscan.io/address/0x4aa9C5546BE68486c4eF264a230D25674a1A728e)
-
-Content Digest
-
-IUqivJ5jeQiCRnw…APpqbBJvyUN0nCg
-
-More from Josh Stark
-
-[View All](https://stark.mirror.xyz/)
-
-###
-
-###
-
-###

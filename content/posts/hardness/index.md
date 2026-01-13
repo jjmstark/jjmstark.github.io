@@ -7,8 +7,8 @@ draft = false
 
 [params.cover]
 image = "hardness-cover.jpeg"
-alt = "test"
-caption = "test"
+alt = "What do we want our civilization to be made of?"
+caption = ""
 +++
 
 Hardness is the capability to make the future more certain.
@@ -19,9 +19,9 @@ These simple building blocks give rise to more complex forms of coordination. Mo
 
 Hardness lets us control the future in the small ways necessary to enable large scale coordination. We take strands of possible futures and collapse them into something specific and strong, like a cord of rope. Firmly anchored, we can step into the future confident it will bear our weight.
 
-~
+---
 
-Blockchains like Ethereum are not the only source of hardness. There are two other sources of hardness we rely on all the time: institutions and atoms.
+Blockchains like Ethereum are not the only source of hardness. There are two other sources of hardness we rely on all the time: **institutions** and **atoms**.
 
 Over the centuries we have built institutions that are reliable enough to serve as a source of hardness. Governments and legal systems are the source of hardness we used to create property rights, contracts, and a modern economy.
 
@@ -33,7 +33,7 @@ All of them give us the ability to constrain the future, to make parts of it mor
 
 If law, money, and government are the infrastructure of our civilization, then atoms, institutions, and blockchains like Ethereum are the raw materials this infrastructure is built with.
 
-~
+---
 
 This is the problem Ethereum solves. It offers us a new source of hardness, one that can do things and go places that institutional hardness and atom hardness cannot:
 
@@ -47,7 +47,7 @@ Ethereum’s hardness does not depend on the political winds. Ethereum’s contr
 
 This helps make sense of why some blockchains are not very interesting: they are just centralized institutions in disguise. That might be a good way to be an institution, but it isn’t a novel contribution to humanity’s sources of hardness.
 
-~
+---
 
 Blockchains like Ethereum will not replace institutions as our only source of hardness. But they will compete with and complement them. Humans now have options: there is a market for hardness. Ethereum-hardness will be used where institutions falter or cannot go, and institution-hardness will fill the gaps where human discretion or intent is necessary to create a system usable by humans.
 
