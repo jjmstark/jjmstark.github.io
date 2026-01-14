@@ -7,8 +7,8 @@ draft = false
 
 [params.cover]
 image = "AIB-cover.png"
-alt = "test"
-caption = "test"
+alt = ""
+caption = ""
 
 +++
 
@@ -21,7 +21,7 @@ Today the answer is easy: they all contain information.
 
 But if you asked someone the same question 100 years ago, they would struggle. They would not have easily identified that these different things all share an abstract property like “information”.
 
-The modern idea of information is a recent invention. It was not until the 1940s that new communications technologies pushed people working on the cutting edge to articulate that there was something universal underlying sound, electromagnetic waves, symbols on paper, and much more.
+The modern idea of information is a recent invention. It was not until the 1940s that new communications technologies pushed people [working on the cutting edge](https://en.wikipedia.org/wiki/Claude_Shannon#Information_theory) to articulate that there was something universal underlying sound, electromagnetic waves, symbols on paper, and much more.
 
 Although humans have been creating and using information technologies like writing, printing, and telegrams for hundreds or thousands of years, it was only in the last century that we articulated clearly what all of these things have in common, and realized that they can be understood as a category.
 
@@ -34,7 +34,7 @@ Perhaps there is an analog to information hidden in the foundations of our civil
 
 # 1.
 
-Call this property hardness.
+Call this property **hardness**.
 
 Human civilization depends in part on our ability to make the future more certain in specific ways.
 
@@ -44,11 +44,11 @@ We need these hard points because it is impossible to coordinate at scale withou
 
 The bonds of social and family ties can only reach so far through space and time, and so we have found other means of creating certainty and stability in relationships stretching far across the social graph. Throughout history we have found ways to make the future more certain, creating constants that are stable enough to rely upon.
 
-One source of hardness has been physical stuff - atoms - in the natural world around us. We found objects and systems that had some convenient properties which, we learned through experience, were quite hard to change. We picked up shells, rocks, and metals from our environment, possessed and defended them, and used them as a basis for commerce.
+One source of hardness has been physical stuff - **atoms** - in the natural world around us. We found objects and systems that had some convenient properties which, we learned through experience, were quite hard to change. We picked up shells, rocks, and metals from our environment, possessed and defended them, and used them as a basis for commerce.
 
-Over time we learned to create our own hardness, and not just borrow it from nature. We built institutions - groups of humans who work together, who behave in predictable ways over long periods of time. We learned to design these institutions to become very reliable - so that we could give an instruction to an institution, and be sure that those instructions would be followed - even years, decades, or centuries later.
+Over time we learned to create our own hardness, and not just borrow it from nature. We built **institutions** - groups of humans who work together, who behave in predictable ways over long periods of time. We learned to design these institutions to become very reliable - so that we could give an instruction to an institution, and be sure that those instructions would be followed - even years, decades, or centuries later.
 
-Recently, we’ve invented a new way to create hardness: blockchains. Using an elegant combination of cryptography, networked software, and commoditized human incentives, we are able to create software and digital records that have a degree of permanence.
+Recently, we’ve invented a new way to create hardness: **blockchains**. Using an elegant combination of cryptography, networked software, and commoditized human incentives, we are able to create software and digital records that have a degree of permanence.
 
 If law, money, and government are the infrastructure of our civilization, then Atoms, Institutions, and Blockchains are some of the raw materials this infrastructure is built with.
 
@@ -71,12 +71,13 @@ If we are going to speak precisely, we need terminology that sheds these meaning
 
 When speaking about hardness, there are three things we need to consider:
 
-What is the hardness about? What is the “something” which is being made very likely to be true in the future?
-What is the source of that hardness? What is the reason it is very likely to be true?
-How hard is it? How can we measure the degree of hardness?
-First, what is the hardness about? What is its informational content?
+* What is the hardness about? What is the “something” which is being made very likely to be true in the future?
+* What is the source of that hardness? What is the reason it is very likely to be true?
+* How hard is it? How can we measure the degree of hardness?
 
-I will call this the “cast”. The cast is the “thing that is hard”, and it always takes the form of a statement or claim about the future. I’m coining a term here because I do not think there is a suitable existing word for the concept. I use the word “cast” for its dual connotations in English of a thing we throw ahead of us and a thing which hardens to protect or shape.
+**First, what is the hardness about?** What is its informational content?
+
+I will call this the **“cast”**. The cast is the “thing that is hard”, and it always takes the form of a statement or claim about the future. I’m coining a term here because I do not think there is a suitable existing word for the concept. I use the word “cast” for its dual connotations in English of a thing we throw ahead of us and a thing which hardens to protect or shape.
 
 For example, one important “cast” about gold is that its supply will remain predictable in the future. We could express this precisely as “between X and Y kilograms of gold will enter the market each year for the next 20 years”.
 
@@ -88,7 +89,7 @@ Casts are descriptions of some future state of the world. A cast is hard if that
 
 In practice, we are usually interacting with bundles of interrelated casts, which woven together, create stability and predictability in our affairs. For instance, if you own gold but store it in a bank, there are many interlocking casts that matter to you: casts about gold’s supply in the future, the integrity of the institution holding your gold for you, the physical properties of the vault where it is stored, the strength of the legal agreement between you and that institution, the reliability of the legal system in the jurisdiction where you live, and many others.
 
-Second, there is the source of hardness. This is the reason that the cast can be hard in the first place. It is what the cast is made out of: atoms, institutions, or blockchains.
+**Second, there is the source of hardness.** This is the reason that the cast can be hard in the first place. It is what the cast is made out of: atoms, institutions, or blockchains.
 
 Sometimes the properties of our physical universe are the source of hardness. There just is a certain amount of gold contained within the earth, and only a portion of it is accessible to us with our current technology. That simple physical truth is the reason casts about the supply of gold are hard.
 
@@ -96,7 +97,7 @@ In other cases, the source of hardness might be an institution. A contract is on
 
 Or, the source of hardness might be a blockchain. The reason a smart contract will operate the way it was programmed is that blockchains provide very high assurances that this will happen, by creating incentives for people to maintain the network and making it extraordinarily expensive to censor or stop its function.
 
-With these first two components identified, we can ask the third question: how hard is a particular cast? Hardness is always measurable in theory, even if it is difficult to do so in practice.
+**With these first two components identified, we can ask the third question: how hard is a particular cast?** Hardness is always measurable in theory, even if it is difficult to do so in practice.
 
 For example, take the example of gold. How hard is the cast “between X and Y kilograms of gold will enter the market each year for the next 20 years”.
 
@@ -116,11 +117,11 @@ It’s important to keep in mind here that the content of the contract is not th
 
 Having explained the basics of what “hardness” is, we should offer a few clarifications and nuances:
 
-Hardness is not the only way we create durable relationships and coordinate with each other. Family or social relationships, culture, religious or political beliefs, and many other more diffuse or “informal institutions” influence human behaviour and help us coordinate. These are important, but they are distinct from the kind of durability provided by AIB.
-There is a very wide range of “how hard” something needs to be, depending on our use-case and the social context. In many cases we are able to get by with a minimum level of certainty about the future for certain kinds of relationships, like a handshake business deal.
-Talking about hardness is also not a claim that something, once made hard, should never be changed or adapted. Hardness is just a tool, not an end in itself. But there is no contradiction in believing both that hardness is an essential characteristic of some systems, and that sometimes it is overridden by other factors. To make an analogy: apartment buildings must be able to stand firmly in place for decades for them to be useful, but that does not mean we shouldn’t sometimes tear them down to build something better.
-Hardness is also not a claim that the systems and mechanisms we use to create hardness should themselves be static or unchanging. The thing that is being made hard is the cast, the claim about the future. In many cases the only way to make that cast hard is for the thing that makes it so - like an institution or a blockchain - to be adaptive and flexible. Democracies, for instance, are often a better institutional source of hardness for political casts, even though they are constantly changing and re-inventing themselves.
-Hardness is related to legitimacy, but they are distinct ideas. Legitimacy is about how human beings react to or perceive some state of affairs. But hardness is just a dry, abstract property of some system to make something more likely to be true in the future. This property might contribute to legitimacy - a legal system is perhaps more likely to be legitimate if it is predictable - but it is not the only or even most important factor in many cases.
+* Hardness is not the only way we create durable relationships and coordinate with each other. Family or social relationships, culture, religious or political beliefs, and many other more diffuse or “informal institutions” influence human behaviour and help us coordinate. These are important, but they are distinct from the kind of durability provided by AIB.
+* There is a very wide range of “how hard” something needs to be, depending on our use-case and the social context. In many cases we are able to get by with a minimum level of certainty about the future for certain kinds of relationships, like a handshake business deal.
+* Talking about hardness is also not a claim that something, once made hard, should never be changed or adapted. Hardness is just a tool, not an end in itself. But there is no contradiction in believing both that hardness is an essential characteristic of some systems, and that sometimes it is overridden by other factors. To make an analogy: apartment buildings must be able to stand firmly in place for decades for them to be useful, but that does not mean we shouldn’t sometimes tear them down to build something better.
+* Hardness is also not a claim that the systems and mechanisms we use to create hardness should themselves be static or unchanging. The thing that is being made hard is the cast, the claim about the future. In many cases the only way to make that cast hard is for the thing that makes it so - like an institution or a blockchain - to be adaptive and flexible. Democracies, for instance, are often a better institutional source of hardness for political casts, even though they are constantly changing and re-inventing themselves.
+* Hardness is related to legitimacy, but they are distinct ideas. Legitimacy is about how human beings react to or perceive some state of affairs. But hardness is just a dry, abstract property of some system to make something more likely to be true in the future. This property might contribute to legitimacy - a legal system is perhaps more likely to be legitimate if it is predictable - but it is not the only or even most important factor in many cases.
 
 # 3.
 
@@ -168,15 +169,16 @@ Over time, humans developed a need for a different kind of hardness. Hardness th
 
 “Institution” here is an extremely broad category, including:
 
-Legal systems
-Legislatures
-Police forces
-Governments
-Central banks and other monetary authorities
-Private banks
-Corporations
-Startups
-Religious institutions
+* Legal systems
+* Legislatures
+* Police forces
+* Governments
+* Central banks and other monetary authorities
+* Private banks
+* Corporations
+* Startups
+* Religious institutions
+
 The details of every case are different, and different institutions within this very broad category vary in how exactly they create hardness. But all of them share the basic property of using organized human behaviour as a foundation for sufficiently hard casts that enable social, political, and economic activity. Groups of humans who are motivated and organized to behave in a certain way, such that the institution itself outlives the participation of any particular individual person.
 
 One key advantage of institutional hardness is that it is extremely customizable. The design space of possible casts built with atom hardness is very limited. But the design space of possible casts built with institutional hardness is limited only by what rules you can convince people to enforce. When we needed hardness that could create more complex casts, we created what we needed out of what we had: people.
@@ -187,11 +189,12 @@ This category extends to institutions who we might not always think of as rule-m
 
 But institutional hardness has its limitations. Some of these have become more apparent, as the scale of human civilization begins to test them:
 
-Most institutions, and the things that they can make hard, are bounded by nation-state borders. There is one set of rules in one place, and another set of rules in another place. This introduces complexity and cost for a civilization and economy that spans many international borders. Relying only on institutions for hardness means access to that hardness is demarcated along nation-state boundaries.
-Many institutions depend on a central state of some kind. In some cases this means that the institution’s function as a source of hardness can be undermined by the state that controls it. A judiciary that serves only as a function of political interests loses its hardness, because it can no longer reliably or predictably enforce consistent rules. Or worse, people believe these systems remain hard, and the state can exploit individuals’ reliance and expectations when it chooses. And if the state falls, it might bring down all of the institutional sources of hardness that enable other parts of society to function, like commerce.
-Institutions are often very opaque. This makes it hard to tell how hard a cast actually is. It is very difficult for any person to predict precisely how a legal rule will be applied, and also very hard to predict how expensive it is to break an institution-made cast. We have built entire professions (lawyers) whose function is, in part, simply to guess at these things, and they are often wrong.
-Institutions are made of people and people are fallible. They are cruel, evil, stupid, and prejudiced. In most places, in most times, consistently throughout our history, institutions have only been reliable sources of hardness for some people, and not for others. Using institutions as a source of hardness for critical social infrastructure often turns that infrastructure into a tool of oppression wielded by those who control the institution.
-Institutions are extremely expensive and difficult to create. The institutions that we rely most on for institutional hardness have today evolved over centuries and millennia. We cannot easily experiment, invent, or test new institutions, which means the rate of innovation proceeds slowly, over decades.
+* Most institutions, and the things that they can make hard, are bounded by nation-state borders. There is one set of rules in one place, and another set of rules in another place. This introduces complexity and cost for a civilization and economy that spans many international borders. Relying only on institutions for hardness means access to that hardness is demarcated along nation-state boundaries.
+* Many institutions depend on a central state of some kind. In some cases this means that the institution’s function as a source of hardness can be undermined by the state that controls it. A judiciary that serves only as a function of political interests loses its hardness, because it can no longer reliably or predictably enforce consistent rules. Or worse, people believe these systems remain hard, and the state can exploit individuals’ reliance and expectations when it chooses. And if the state falls, it might bring down all of the institutional sources of hardness that enable other parts of society to function, like commerce.
+* Institutions are often very opaque. This makes it hard to tell how hard a cast actually is. It is very difficult for any person to predict precisely how a legal rule will be applied, and also very hard to predict how expensive it is to break an institution-made cast. We have built entire professions (lawyers) whose function is, in part, simply to guess at these things, and they are often wrong.
+* Institutions are made of people and people are fallible. They are cruel, evil, stupid, and prejudiced. In most places, in most times, consistently throughout our history, institutions have only been reliable sources of hardness for some people, and not for others. Using institutions as a source of hardness for critical social infrastructure often turns that infrastructure into a tool of oppression wielded by those who control the institution.
+* Institutions are extremely expensive and difficult to create. The institutions that we rely most on for institutional hardness have today evolved over centuries and millennia. We cannot easily experiment, invent, or test new institutions, which means the rate of innovation proceeds slowly, over decades.
+
 Over time, a greater and greater share of the systems that are socially important to us have become grounded in institution-hardness, rather than atom-hardness.
 
 Consider the privacy of your personal communications. For most of human history, people had a strong expectation that their private communications could not be easily monitored (cast: “If I criticize the government while speaking to my family, the state will not learn about it”).
@@ -216,12 +219,13 @@ The same design that makes Bitcoin possible was extended and expanded into a bro
 
 Like Atoms and Institutions, Blockchains have strengths and weaknesses that make them appropriate for certain use-cases but not others:
 
-Blockchains are natively digital. They create hardness about software, data, and programs. Anyone with an internet connection can access, and interact with, a blockchain. This is also a limitation, because blockchain hardness depends on a sufficiently technological civilization that can maintain the internet and other infrastructure.
-Blockchains do not depend on any institutions, even if they do require human maintenance. Blockchain hardened casts will remain hard if a government fails, a judiciary succumbs to corruption, or a police force refuses to enforce the law. Blockchains do depend, to some degree, on the behaviour of groups of humans - for instance, to maintain client software that facilitates the protocol, or wallet software that lets humans interact with it. But these services can be performed by anyone, anywhere, anonymously - a loose, decentralized community of engineers. And it is not an exclusive right - anyone can create and maintain an Ethereum client.
-Measuring Blockchain hardness is extremely transparent. The specific cryptographic tools used by blockchains are public and available for study, and generally their properties are very well understood. The cost of attacking the system to subvert it - i.e. through a so-called “51% attack” - is known, and we can estimate it accurately.
-Blockchain casts are made using software. Software can be poorly written, include errors, and most people cannot read software or write it themselves. Without the convenience of human discretion (as exists in institutions), small mistakes that differ from our intent can be severe. On the other hand, the opportunity to learn to write and read software is available to anyone on earth. Anyone can upload a contract to Ethereum, virtually no one can write a law.
-Blockchains let us create new casts that, if they were grounded in institutional hardness, would require creating entirely new institutions. Anyone can create an asset, and define the parameters of that asset, in a way that would be impossible through any other means.
-Armed with the idea of hardness, it is easy to explain what blockchains are for and why they matter. Blockchains, like institutions, are a source of hardness. We need hardness because it is what makes it possible for us to build complex global coordination tools like law, governance, and money.
+* Blockchains are natively digital. They create hardness about software, data, and programs. Anyone with an internet connection can access, and interact with, a blockchain. This is also a limitation, because blockchain hardness depends on a sufficiently technological civilization that can maintain the internet and other infrastructure.
+* Blockchains do not depend on any institutions, even if they do require human maintenance. Blockchain hardened casts will remain hard if a government fails, a judiciary succumbs to corruption, or a police force refuses to enforce the law. Blockchains do depend, to some degree, on the behaviour of groups of humans - for instance, to maintain client software that facilitates the protocol, or wallet software that lets humans interact with it. But these services can be performed by anyone, anywhere, anonymously - a loose, decentralized community of engineers. And it is not an exclusive right - anyone can create and maintain an Ethereum client.
+* Measuring Blockchain hardness is extremely transparent. The specific cryptographic tools used by blockchains are public and available for study, and generally their properties are very well understood. The cost of attacking the system to subvert it - i.e. through a so-called “51% attack” - is known, and we can estimate it accurately.
+* Blockchain casts are made using software. Software can be poorly written, include errors, and most people cannot read software or write it themselves. Without the convenience of human discretion (as exists in institutions), small mistakes that differ from our intent can be severe. On the other hand, the opportunity to learn to write and read software is available to anyone on earth. Anyone can upload a contract to Ethereum, virtually no one can write a law.
+* Blockchains let us create new casts that, if they were grounded in institutional hardness, would require creating entirely new institutions. Anyone can create an asset, and define the parameters of that asset, in a way that would be impossible through any other means.
+
+**Armed with the idea of hardness, it is easy to explain what blockchains are for and why they matter.** Blockchains, like institutions, are a source of hardness. We need hardness because it is what makes it possible for us to build complex global coordination tools like law, governance, and money.
 
 Blockchains have a different set of tradeoffs than institutions, making them suitable for some purposes but not others. They can go places and do things that institutions cannot, and they are more resistant than institutions to certain kinds of failure. Maybe they can even enable new types of coordination mechanisms that were never possible until now.
 
@@ -229,13 +233,14 @@ It is also worth noting that this third type of hardness I am referring to as �
 
 Understanding blockchains as a source of hardness also helps us make sense of the dizzying array of narratives and buzzwords that have been used to make sense of them over time:
 
-Blockchains can be credibly neutral because their rules are transparent and verifiable, and casts about those rules are made hard by the blockchain itself.
-Ethereum enables composability between applications because applications built on Ethereum can be very hard, with high assurances that they will not change. Applications that are deployed on mainnet will stay there, letting developers build on top of what has already built, with high confidence that those foundations can never crumble beneath them.
-Ethereum enables hyperstructures - protocols that can run forever - because blockchains provide a native source of hardness that makes the structures built on top of them extremely likely to persist into the future.
-Ethereum enables decentralized finance because it lets us create programmable hardness sufficient to recreate the complex intersecting web of relationships that characterize traditional finance. But whereas traditional finance is built out of institutional hardness (e.g. legal contracts), defi is built out of blockchain hardness.
-Blockchains can be trustless in the sense that they create hardness without any reliance on the behaviour of individual people or institutions. People also like to say that blockchains are “trust machines” or that they create trust. The mystery of why we use both these seemingly contradictory explanations is unraveled once we are armed with the concept of hardness: blockchains are trustless in the sense that their hardness does not depend on people, but they are trustworthy in that they are still capable of producing hardness. In the former the speaker is using the word “trust” as a stand-in for institutional-hardness, whereas in the latter “trust” means just “hardness”.
-Ethereum enables web3*:* an ecosystem of web services, protocols, applications, and communities whose foundations are built primarily on blockchain hardness, rather than institutional hardness. A digital environment where people’s identities, their possessions, their means of commerce, the way they govern themselves collectively, and the way they publish information to the world, all of it grounded primarily in blockchain hardness, rather than institutions.
-Hardness also helps us articulate what is special about some blockchains and not others. Blockchains cease being a novel contribution to humanity’s hardness infrastructure when they collapse into just another institution. In other words, when they become centralized, dependant on specific groups of people. Digital institutions might still be useful, but they bring with them the same advantages and disadvantages of analog institutions.
+* Blockchains can be [***credibly neutral***](https://nakamoto.com/credible-neutrality/) because their rules are transparent and verifiable, and casts about those rules are made hard by the blockchain itself.
+* Ethereum enables ***composability between applications*** because applications built on Ethereum can be very hard, with high assurances that they will not change. Applications that are deployed on mainnet will stay there, letting developers build on top of what has already built, with high confidence that those foundations can never crumble beneath them.
+* Ethereum enables [*hyperstructures*](https://jacob.energy/hyperstructures.html) - protocols that can run forever - because blockchains provide a native source of hardness that makes the structures built on top of them extremely likely to persist into the future.
+* Ethereum enables ***decentralized*** finance because it lets us create programmable hardness sufficient to recreate the complex intersecting web of relationships that characterize traditional finance. But whereas traditional finance is built out of institutional hardness (e.g. legal contracts), defi is built out of blockchain hardness.
+* Blockchains can be [***trustless***](https://trustlessness.eth.limo/general/2025/11/11/the-trustless-manifesto.html) in the sense that they create hardness without any reliance on the behaviour of individual people or institutions. People also like to say that blockchains are [“trust machines”](https://www.economist.com/leaders/2015/10/31/the-trust-machine) or that they create trust. The mystery of why we use both these seemingly contradictory explanations is unraveled once we are armed with the concept of hardness: blockchains are trustless in the sense that their hardness does not depend on people, but they are trustworthy in that they are still capable of producing hardness. In the former the speaker is using the word “trust” as a stand-in for institutional-hardness, whereas in the latter “trust” means just “hardness”.
+* Ethereum enables ***web3***: an ecosystem of web services, protocols, applications, and communities whose foundations are built primarily on blockchain hardness, rather than institutional hardness. A digital environment where people’s identities, their possessions, their means of commerce, the way they govern themselves collectively, and the way they publish information to the world, all of it grounded primarily in blockchain hardness, rather than institutions.
+* Hardness also helps us articulate what is special about some blockchains and not others. Blockchains cease being a novel contribution to humanity’s hardness infrastructure when they collapse into just another institution. In other words, when they become centralized, dependant on specific groups of people. Digital institutions might still be useful, but they bring with them the same advantages and disadvantages of analog institutions.
+
 Humans have a natural need for hardness in the systems we use to coordinate, the systems we rely on to bring predictability to our civilization. We feel it’s absence when it is missing. One underlying reason for the increasing backlash against “big tech” is that it has become clear that the institutions that control the internet today are not suitable sources of hardness, and the casts we try to make with them keep breaking. And across the political spectrum, all over the world, many people are increasingly skeptical of the institutions that, through our reliance on them as a source of hardness, wield great influence over our lives.
 
 We want a strong foundation for the global civilization we are trying to stitch together. One that does not change under our feet with each election, or the rise and fall of individual American companies.
@@ -243,7 +248,7 @@ We want a strong foundation for the global civilization we are trying to stitch 
 
 # 4.
 
-Think about Atoms, Institutions, and Blockchains like a system of checks and balances. Using them together to build our civilization’s critical infrastructure makes it more resilient, and less exposed to the limitations of any one of them. They are a set of building materials that, used together in aggregate, make a stronger whole.
+**Think about Atoms, Institutions, and Blockchains like a system of checks and balances.** Using them together to build our civilization’s critical infrastructure makes it more resilient, and less exposed to the limitations of any one of them. They are a set of building materials that, used together in aggregate, make a stronger whole.
 
 But that system of checks and balances is changing beneath our feet. Most of the time, we don’t even realize it. The last protections of atom-hardness are crumbling as new technology lowers the cost of rights infringements that were once impossible at scale. The growth of a global digital civilization mediated via the internet has accelerated our reliance on institutions, stretching and testing them past their breaking point.
 
