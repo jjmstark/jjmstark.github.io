@@ -1,5 +1,5 @@
 +++
-date = '2025-11-14T11:14:28-05:00'
+date = '2024-02-24T11:14:28-05:00'
 draft = false
 title = 'Making sense of Trust Experience (TX)'
 
@@ -189,4 +189,4 @@ Modern UX relies on many conventions, symbols, or conceptual metaphors that were
 
 *Thanks to Rachel, Tim, Danny, Liam, Josh, Jesse, Dankrad, Justin, Trent, Jason, and ST for their comments on earlier drafts.*
 
-Old UX image of Norton Commander from Yuri Samoilov
+Old UX image of Norton Commander from [Yuri Samoilov](https://www.flickr.com/photos/yusamoilov/45688271474)
