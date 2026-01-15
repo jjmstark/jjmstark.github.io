@@ -7,7 +7,7 @@
 {{- $pages := union .RegularPages .Sections }}
 {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
-{{- $paginator := .Paginate $pages }}
+{{- $paginator := .Paginate $pages 10000 }}
 
 <div class="homepage-header">
   <div class="homepage-logo">
@@ -55,25 +55,6 @@
   </div>
   {{- end }}
 </div>
-{{- end }}
-
-{{- if gt $paginator.TotalPages 1 }}
-<footer class="page-footer">
-  <nav class="pagination">
-    {{- if $paginator.HasPrev }}
-    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
-      <span aria-hidden="true">&laquo;&nbsp;{{ i18n "prev_page" | default "Prev" }}</span>
-      <span class="sr-only">{{ i18n "prev_page" | default "Previous page" }}</span>
-    </a>
-    {{- end }}
-    {{- if $paginator.HasNext }}
-    <a class="next" href="{{ $paginator.Next.URL | absURL }}">
-      <span aria-hidden="true">{{ i18n "next_page" | default "Next" }}&nbsp;&raquo;</span>
-      <span class="sr-only">{{ i18n "next_page" | default "Next page" }}</span>
-    </a>
-    {{- end }}
-  </nav>
-</footer>
 {{- end }}
 
 {{- end }}{{/* end profileMode */}}
