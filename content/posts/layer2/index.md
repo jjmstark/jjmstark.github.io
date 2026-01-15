@@ -2,8 +2,14 @@
 title = "Making Sense of Ethereum's Layer 2 Scaling Solutions: State Channels, Plasma, and Truebit"
 date = 2018-02-12T00:00:00
 description = "Understanding off-chain scaling solutions for Ethereum"
-tags = ["ethereum", "scaling", "layer2", "state-channels", "plasma", "truebit"]
+tags = ["ethereum", "scaling", "layer2"]
 draft = false
+
+[params.cover]
+image = "cover.png"
+alt = ""
+caption = ""
+
 +++
 
 For ethereum 2018 is the year of infrastructure. This is the year when early adoption will test the limits of the network, renewing focus on technologies built to scale ethereum.
@@ -44,6 +50,9 @@ Section A could process one batch of transactions, while Section B processed ano
 
 This is the insight behind "sharding", a scaling solution being pursued by Vitalik's [Ethereum Research group](http://ethereumresearch.org/) and others. A blockchain is split into different sections called shards, each of which can independently process transactions. Sharding is often referred to as a Layer 1 scaling solution because it is implemented at the base-level protocol of ethereum itself. If you want to learn more about sharding, I recommend this [extensive FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ) and [this blog post](https://medium.com/@icebearhww/ethereum-sharding-and-finality-65248951f649).
 
+
+![Layer 1 scaling](diagram1.png)
+
 ### II. What if we could squeeze more useful operations out of ethereum's existing capacity?
 
 The second option goes in the opposite direction: rather than increase the capacity of the ethereum blockchain itself, what if we could do more things with the capacity we already have? The throughput of the base-layer ethereum blockchain would be the same, but in practice we would be able to do many more operations that are useful to people and applications — like transactions, state updates in a game, or simple computations.
@@ -51,6 +60,8 @@ The second option goes in the opposite direction: rather than increase the capac
 This is the insight behind "off-chain" technologies like [state channels](https://medium.com/l4-media/generalized-state-channels-on-ethereum-de0357f5fb44), [Plasma](http://plasma.io/), and [Truebit](http://truebit.io/). While each of these is solving a different problem, they all function by performing operations "off chain" instead of on the ethereum blockchain, while still guaranteeing a sufficient level of security and finality.
 
 These are also known as Layer 2 solutions because they are built "on top of" the ethereum main-chain. They do not require changes to the base level protocol — rather, they exist simply as smart contracts on ethereum that interact with off-chain software.
+
+![Layer 2 scaling](diagram1.png)
 
 ## 2. Layer 2 solutions are cryptoeconomic solutions
 
@@ -144,9 +155,13 @@ As mentioned above, the user always has an ultimate guarantee that they can with
 
 Plasma also creates a mechanism to prevent fraud short of withdrawing to main-chain. Plasma includes a mechanism whereby anyone — including you — can publish a fraud proof to the root contract, to try and show that the block producer has cheated. This fraud proof would contain information about the previous block, and allows us to show that according to the state-transition rules of the child-chain, the false block doesn't properly follow from the previous state. If fraud is proven, the child-chain is "rolled back" to the previous block. Even better, we construct a system where any block producer who signed off on the false block is penalized by losing an on-chain deposit.
 
+![Plasma](diagram3.png)
+
 But submitting a fraud proof requires having access to the underlying data — i.e. the actual history of blocks that are used to prove the fraud. What if the block producers are also not sharing information about previous blocks, to prevent Alice from being able to submit a fraud proof to the root contract?
 
 In this case, the solution is for Alice to withdraw her funds and leave the child-chain. Essentially Alice submits a "Proof of Funds" to the root contract. After a delay period during which anyone can challenge her proof (e.g. to show she actually spent those funds in a later valid block), Alice's funds are moved back to the ethereum main-chain.
+
+![Plasma](diagram4.png)
 
 Lastly, block producers can censor users of the child-chain. If they wanted, block producers could simply never include certain transactions in their blocks, effectively preventing a user from performing any operations on the child-chain. Once again, the solution is simply to withdraw all of our assets back onto the ethereum main-chain as above.
 
@@ -180,13 +195,12 @@ But how can we tell whether the result was correct, or false? Truebit uses an ec
 
 Because the verification game is performed on-chain, it cannot simply compute the result (which would defeat the entire purpose of the system — if we could do the computation on-chain, we wouldn't need Truebit). Rather, we force both the solver and challenger to identify the specific operation that they disagree about. In effect, we are backing both parties into a corner — finding the actual line of code where they disagree about the outcome.
 
+
+![Truebit](diagram5.png)
+
 Once that specific operation is identified, it's small enough to actually be executed by the ethereum main-chain. We then execute that operation through a smart-contract on ethereum, which settles once and for all which party was telling the truth and which was lying or mistaken.
 
 If you want to learn more about Truebit, you can read the paper [here](https://people.cs.uchicago.edu/~teutsch/papers/truebit.pdf), or this [blog post](https://medium.com/@simondlr/an-intro-to-truebit-a-scalable-decentralized-computational-court-1475531400c3) by Simon de la Rouviere.
-
-The other notable state channels project for ethereum is [Raiden](https://raiden.network/), which is currently focused on building a network of payment channels, using a similar paradigm as the [lightning network](http://lightning.network/). This means that rather than have to open up a channel with the specific person(s) you want to transact with, you can open up a single channel with an entity connected to a much larger network of channels, enabling you to make payments to anyone else connected to the same network without additional fees.
-
-In addition to Counterfactual and Raiden, there are several application-specific channel implementations on ethereum. For instance, Funfair has built state channels (which they call "[Fate channels](https://funfair.io/state-channels-in-disguise/)") for their decentralized gambling platform, Spankchain has built [one-way payment channels](https://twitter.com/SpankChain/status/932801441793585152) for adult performers (they also [used a state channel for their ICO](https://github.com/SpankChain/old-sc_auction)), and [Horizon Games](https://horizongames.co/) is using state channels in their first ethereum-based game.
 
 ## Conclusion
 
