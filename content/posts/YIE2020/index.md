@@ -6,13 +6,11 @@ tags = ["year-in-ethereum", "ethereum"]
 draft = false
 
 [params.cover]
-image = "cover.png"
+image = "coverimage.png"
 alt = "The Year in Ethereum 2020"
 caption = "The Year in Ethereum 2020"
 +++
 
-
-👋 Note: Originally published on Jan 20, 2021 on [Medium](https://jjmstark.medium.com/the-year-in-ethereum-2020-98123e5f160d).
 
 **Ethereum is the digital frontier.**
 
