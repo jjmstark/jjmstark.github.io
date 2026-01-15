@@ -1,13 +1,13 @@
 +++
-title = "Making Sense of Ethereum's Layer 2 Scaling Solutions: State Channels, Plasma, and Truebit"
+title = "Making Sense of Ethereum's Layer 2 Scaling Solutions"
 date = 2018-02-12T00:00:00
-description = "Understanding off-chain scaling solutions for Ethereum"
+description = ""
 tags = ["ethereum", "scaling", "layer2"]
 draft = false
 
 [params.cover]
 image = "cover.png"
-alt = ""
+alt = "Construction of the Tunkhannock Viaduct railway bridge in Pennsylvania (cc). Roman engineering principles being extended to new uses."
 caption = ""
 
 +++
