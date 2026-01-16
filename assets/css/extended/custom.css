@@ -97,7 +97,7 @@ a:hover, a:focus {
 
 /* Dark mode date colors */
 [data-theme="dark"] .post-date.year-cycle-0 {
-    color: #c9a876 !important;
+    color: #000000 !important;
 }
 
 [data-theme="dark"] .post-date.year-cycle-1 {
@@ -107,7 +107,7 @@ a:hover, a:focus {
 /* Auto mode for dark preference */
 @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) .post-date.year-cycle-0 {
-        color: #c9a876 !important;
+        color: #000000 !important;
     }
 
     :root:not([data-theme="light"]) .post-date.year-cycle-1 {
