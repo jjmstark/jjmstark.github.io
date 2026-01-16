@@ -1,12 +1,17 @@
 +++
-title = "6. This one owns itself"
+title = "This one owns itself"
 date = 2016-02-29T00:00:00
 description = "A story about autonomous delivery drones and self-ownership"
 tags = ["blockchain", "ethereum", "iot"]
 draft = false
+
+[params.cover]
+image = "cover.png"
+alt = ""
+caption = "Photo by [Skye Jones](https://www.flickr.com/photos/picaddiction/5345535792/)"
+
 +++
 
-*Photo by [Skye Jones](https://www.flickr.com/photos/picaddiction/5345535792/)*
 
 You're up early for work this morning, in the kitchen making coffee. In the backyard, out the window above the sink, is your landpad & charging station, decorated with the bright bold outlines of its QR address.
 
@@ -22,6 +27,8 @@ The drones pay a small streaming fee to the collective for access to its decisio
 
 You thumb through the drone's identity page and notice a field you hadn't seen filled in before. It might be a cute joke — or maybe they really believe this stuff — but the collective that set this drone on a path towards self-ownership also gave it a name. This drone is Russell.
 
+
+![drone](image1.png)
 *Photo by [Christopher Michel](https://www.flickr.com/photos/cmichel67/15593083649/)*
 
 Russell's battery is fully charged and it will waste no time waiting on the ground. While it was charging it was listening to the constant stream of contract requests being sent out by every distribution point within the relevant radius, tracking them as they were announced, bid on, and secured by other drones. Once the battery was charged, Russell secured the first contract it could that met its margin requirements and headed towards the distribution point, a local coffee roaster. The drone lifts off. Within a few minutes, another drone will have landed to take its place to charge before returning to the skies.

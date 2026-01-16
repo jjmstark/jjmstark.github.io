@@ -1,5 +1,5 @@
 +++
-title = "5. Companies, Code, and Generic Marketplaces"
+title = "Companies, Code, and Generic Marketplaces"
 date = 2016-02-22T00:00:00
 description = ""
 tags = ["bitcoin", "blockchain", "ethereum"]
