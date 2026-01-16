@@ -1,16 +1,18 @@
 +++
 title = "A platform for value technologies"
 date = 2015-12-02T00:00:00
-description = "How blockchain serves as a general platform for currencies, shares, and rewards points"
+description = ""
 tags = ["bitcoin", "blockchain", "fintech"]
 draft = false
 
 [params.cover]
 image = "cover.png"
 alt = ""
-caption = ""
+caption = "barter was a technology problem"
 
 +++
+
+*Note: initially published on [Medium](https://medium.com/@creole/3-a-platform-for-value-technologies-b9f1531f78e0#.buqolfdwj) under the pseudonym Creole*
 
 In the first post I wrote that blockchain technology will make it cheap and easy to transfer money. In the second post we took a brief look at what that world might look like.
 
@@ -39,6 +41,7 @@ Another axis is: who defines what it is? Currencies are controlled by a central 
 In a way, they're all made from the same stuff. They may be valuable to us for different reasons, they are governed by different rules, and there are different sources for those rules. But each is a thing we can own, with a set of executable instructions that define what it is, giving us access to other things in the world.
 
 ![San Francisco Mint, 1882-1885](image1.png)
+*San Francisco Mint, 1882-1885*
 
 Each of these is technology. We're not used to thinking about money, shares, or rewards points as technology, but they are. Currency, especially, is such an ingrained feature of modern life that it seems invisible, fundamental.
 
@@ -51,6 +54,7 @@ We invented shares because they were a useful mechanism to connect investors wit
 The startup costs of new value technologies are immense. There is a reason some of them took centuries to mature. Every value technology needs a way to record ownership — a physical token, or a central database that tracks ownership. It needs a way to execute the instructions that define it, and enforce those instructions if they are not followed. And above all, it must find a way to create trust, so that people will actually use it. It requires metal, currency zones, punch-cards, databases, highly secured buildings, legal systems, legislatures, armies.
 
 ![National Climatic Data Center, 1964](image2.png)
+*National Climatic Data Center, 1964*
 
 
 Before the internet we had phones, we had letters, we had mail, we had CD stores, we had television, we had books, and we had stacks and stacks of paper that were trucked back and forth between office buildings. Then we had the internet, and only then did it become obvious to most people that these were all just different information technologies, each with its own custom "hardware" for moving information, most of which could, it turns out, be replaced by a general platform that could agnostically move data.
