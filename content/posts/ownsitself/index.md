@@ -12,6 +12,7 @@ caption = "Photo by [Skye Jones](https://www.flickr.com/photos/picaddiction/5345
 
 +++
 
+*Note: initially published on [Medium](https://medium.com/@creole/6-this-one-owns-itself-9f6a3aa4382d) under the pseudonym Creole*
 
 You're up early for work this morning, in the kitchen making coffee. In the backyard, out the window above the sink, is your landpad & charging station, decorated with the bright bold outlines of its QR address.
 

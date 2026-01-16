@@ -1,10 +1,17 @@
 +++
-title = "7. A simple view of Ethereum"
+title = "A simple view of Ethereum"
 date = 2016-03-08T00:00:00
 description = "Understanding Ethereum as a trustworthy world computer"
 tags = ["blockchain", "ethereum"]
 draft = false
+
+[params.cover]
+image = "cover.png"
+alt = ""
+caption = ""
 +++
+
+*Note: initially published on [Medium](https://medium.com/@creole/7-a-simple-view-of-ethereum-e276f76c980b) under the pseudonym Creole*
 
 Imagine thousands of computers all over the world connected by the internet. Some are home PCs, some are laptops, some are servers sitting deep underground. But each of them runs the same computer program, which connects all of these computers into a network of equals.
 
