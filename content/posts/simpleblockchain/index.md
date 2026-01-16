@@ -11,6 +11,8 @@ alt = ""
 caption = ""
 +++
 
+*Note: initially published on [Medium](https://medium.com/@creole/1-a-simple-view-of-blockchain-500654a55d1d#.k66w8m5yw) under the pseudonym Creole*
+
 This is the first post of what I am calling Creole. The object is to convince a general audience that blockchain technologies like bitcoin and other “digital currencies” will have a large impact on our world.
 
 This isn’t a popular view. Today it is difficult to even explain what bitcoin is, or how a blockchain works. Proponents too-often rely on dense technical explanations, or vague gestures towards far-future use cases. To many this sounds dodgy. If this new technology is so great, why can’t you explain it?

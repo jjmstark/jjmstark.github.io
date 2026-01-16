@@ -1,10 +1,18 @@
 +++
-title = "2. Every little bit helps"
+title = "Every little bit helps"
 date = 2015-11-07T00:00:00
-description = "A future where micropayments and public outcome accounts transform daily life"
+description = "A short crypto-scifi story about mobile payments at global scale"
 tags = ["bitcoin", "mobile-payments", "blockchain"]
 draft = false
+
+[params.cover]
+image = "cover.png"
+alt = ""
+caption = ""
 +++
+
+
+*Note: initially published on [Medium](https://medium.com/@creole/2-first-interruption-6ed10e070b5d#.xzzyu8i7s) under the pseudonym Creole*
 
 You wake up to a slow pulse on your phone. Your PO account has received its monthly payment. You lazily wake the screen and thumb approval to the standard division:
 
