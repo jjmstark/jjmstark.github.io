@@ -69,19 +69,21 @@ a:hover, a:focus {
     align-items: center;
     margin-bottom: 0.75rem;
     line-height: 1.4;
+    gap: 1rem;
 }
 
 .post-date {
     font-family: monospace;
     font-size: 0.9rem;
-    margin-right: 1rem;
     min-width: 5.5rem;
     color: var(--secondary);
+    display: inline-block;
 }
 
 .post-title {
-    flex: 1;
     font-size: 1rem;
+    display: inline;
+    padding: 0;
 }
 
 /* Dark mode date color */
