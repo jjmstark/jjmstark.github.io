@@ -1,14 +1,14 @@
 +++
 title = "The Year in Ethereum 2019"
 date = 2020-01-22T00:00:00
-description = "The Year in Ethereum 2019"
+description = ""
 tags = ["year-in-ethereum", "ethereum"]
 draft = false
 
 [params.cover]
 image = "coverimage.png"
 alt = "The Year in Ethereum 2019"
-caption = "The Year in Ethereum 2019"
+caption = ""
 +++
 
 **Ethereum began as a blank canvas.**

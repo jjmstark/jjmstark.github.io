@@ -1,4 +1,4 @@
-baseURL = 'https://jjmstark.github.io/my-blog/'
+baseURL = 'https://jjmstark.github.io/'
 languageCode = 'en-us'
 title = '0xStark'
 theme = 'PaperMod'
