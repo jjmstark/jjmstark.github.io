@@ -1,0 +1,14 @@
+{{- $image := .Destination -}}
+{{- $alt := .Text -}}
+{{- $title := .Title -}}
+
+{{- /* Handle relative paths from page bundles */ -}}
+{{- if strings.HasPrefix $image "./" -}}
+  {{- /* Relative path like ./image.png */}}
+  {{- $image = printf "%s%s" (.Page.RelPermalink | strings.TrimSuffix "/") ($image | strings.TrimPrefix ".") -}}
+{{- else if not (strings.HasPrefix $image "http" | or (strings.HasPrefix $image "/")) -}}
+  {{- /* Plain filename like image.png - treat as relative to page bundle */}}
+  {{- $image = printf "%s%s" (.Page.RelPermalink | strings.TrimSuffix "/") ("/" | printf "%s" $image) -}}
+{{- end -}}
+
+<img src="{{ $image }}" alt="{{ $alt }}"{{ if $title }} title="{{ $title }}"{{ end }} loading="lazy" />

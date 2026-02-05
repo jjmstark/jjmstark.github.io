@@ -2,16 +2,26 @@
 {{/* This file will be automatically included in the <head> section */}}
 
 {{/* Open Graph / Social Meta Tags */}}
+{{- $ogImage := "" -}}
+{{- if .Params.cover.image -}}
+  {{- /* Use cover image from page bundle, construct full path */ -}}
+  {{- $coverFile := .Params.cover.image -}}
+  {{- $ogImage = print (.RelPermalink | strings.TrimSuffix "/") "/" $coverFile -}}
+{{- else -}}
+  {{- /* Fall back to default og-image */ -}}
+  {{- $ogImage = print .Site.BaseURL "og-image.png" -}}
+{{- end -}}
+
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="0xStark" />
 <meta property="og:title" content="{{ .Title | default .Site.Title }}" />
 <meta property="og:description" content="{{ .Summary | default .Site.Params.description }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
-<meta property="og:image" content="{{ .Params.cover.image | default (print .Site.BaseURL "og-image.png") }}" />
+<meta property="og:image" content="{{ $ogImage }}" />
 
 {{/* Twitter Card Tags */}}
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="{{ .Title | default .Site.Title }}" />
 <meta name="twitter:description" content="{{ .Summary | default .Site.Params.description }}" />
-<meta name="twitter:image" content="{{ .Params.cover.image | default (print .Site.BaseURL "og-image.png") }}" />
+<meta name="twitter:image" content="{{ $ogImage }}" />
 <meta name="twitter:creator" content="@0xstark" />
