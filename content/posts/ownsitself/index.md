@@ -1,7 +1,7 @@
 +++
 title = "This one owns itself"
 date = 2016-02-29T00:00:00
-description = "A story about autonomous delivery drones and self-ownership"
+description = ""
 tags = ["blockchain", "ethereum", "iot"]
 draft = false
 
