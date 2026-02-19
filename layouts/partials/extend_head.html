@@ -9,8 +9,9 @@
 <meta property="og:url" content="{{ .Permalink }}" />
 {{- if .Params.cover.image -}}
   {{- $coverFile := .Params.cover.image -}}
-  {{- $ogImage := print (.RelPermalink | strings.TrimSuffix "/") "/" $coverFile -}}
-  <meta property="og:image" content="{{ $ogImage }}" />
+  {{- $ogImage := print (.Permalink | strings.TrimSuffix "/") "/" $coverFile -}}
+  {{- $absoluteImage := $ogImage | absURL -}}
+  <meta property="og:image" content="{{ $absoluteImage }}" />
 {{- end -}}
 
 {{/* Twitter Card Tags */}}
@@ -19,7 +20,8 @@
 <meta name="twitter:description" content="{{ .Summary | default .Site.Params.description }}" />
 {{- if .Params.cover.image -}}
   {{- $coverFile := .Params.cover.image -}}
-  {{- $ogImage := print (.RelPermalink | strings.TrimSuffix "/") "/" $coverFile -}}
-  <meta name="twitter:image" content="{{ $ogImage }}" />
+  {{- $ogImage := print (.Permalink | strings.TrimSuffix "/") "/" $coverFile -}}
+  {{- $absoluteImage := $ogImage | absURL -}}
+  <meta name="twitter:image" content="{{ $absoluteImage }}" />
 {{- end -}}
 <meta name="twitter:creator" content="@0xstark" />
